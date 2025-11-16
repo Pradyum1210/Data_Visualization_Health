@@ -1,66 +1,111 @@
-📊 Mental Health & Social Media Balance — Data Visualization Project
+🌿 Mental Health & Social Media Balance
+
+📊 Data Visualization Project
+
+
 🧠 Overview
 
-This project explores the relationship between social media usage and mental health indicators, such as stress, anxiety, mood, productivity, and sleep quality.
-Using Python and data visualization techniques, the goal is to identify patterns, correlations, and insights that highlight how digital habits impact overall well-being.
+This project explores how daily social media usage affects different aspects of mental health, such as stress, sleep quality, productivity, mood, and anxiety levels.
+Through data visualization techniques, the project highlights important psychological patterns in today’s digital world.
 
-This repository contains:
+The repository includes:
 
-📁 Dataset: Mental_Health_and_Social_Media_Balance_Dataset.csv
+Dataset: Mental_Health_and_Social_Media_Balance_Dataset.csv
 
-📘 Google Colab Mental_Health_and_Social_Media_Balance.ipynb (complete visualization code)
+Google Colab: Mental_Health_and_Social_Media_Balance.ipynb (all visualizations)
 
-📂 Dataset Information
+This project is ideal for students, beginners, and researchers interested in data analysis, human behavior, and digital well-being.
 
-The dataset includes real-life inspired information about people's social media habits and mental health metrics.
+📂 Dataset Description
 
-Key Columns
-Column Name	Description
-Age	Age of individual
-Gender	Male/Female/Other
-Daily_Screen_Time(hrs)	Average smartphone/social media usage per day
-Stress_Level	Stress rating (1–5)
-Anxiety_Level	Anxiety rating (1–5)
-Depression_Level	Depression symptoms score
-Sleep_Quality	Sleep quality score
-Productivity_Level	Productivity score
-Social_Media_Platform	Most used platform
-Usage_Purpose	Entertainment / Study / Work / Socialising
+The dataset contains real-world style information about individuals’ social media habits and mental health indicators.
 
-(Adjust these based on your dataset — but these match most mental-health social media datasets.)
+Key Features Included
 
-🎨 Data Visualization Performed
+Age & Gender — demographic information
 
-The notebook contains multiple visualizations, such as:
+Daily Screen Time (hrs) — average hours spent on digital devices
 
-✔ 1. Distribution Plots
+Stress, Anxiety, Depression Levels — self-reported psychological states
 
-Histogram of screen time
+Sleep Quality — restfulness and sleep pattern score
 
-Distribution of stress/anxiety levels
+Productivity Level — individual performance indicator
 
-Age distribution
+Most Used Social Media Platform — Instagram, YouTube, Facebook, etc.
 
-✔ 2. Relationship Visualizations
+Purpose of Usage — entertainment, work, study, communication
 
-Scatter plot: Screen Time vs Stress Level
+These attributes help uncover trends between lifestyle choices and mental well-being.
 
-Scatter plot: Screen Time vs Sleep Quality
+🎨 Visualizations Included
 
-Heatmap: Correlation between mental health features
+The notebook provides clear, meaningful visualizations such as:
 
-✔ 3. Category-Based Visualizations
+🔹 Distribution Charts
 
-Bar chart: Most-used social media platforms
+Distribution of daily screen time
 
-Bar chart: Usage purpose
+Frequency of stress and anxiety levels
 
-Gender-wise screen time comparison
+Age distribution across participants
 
-✔ 4. Trend/Pattern Observation
+🔹 Relationship Analysis
 
-How increasing social media time affects mental health
+Impact of screen time on stress
 
-Which platform users show higher stress?
+Connection between screen time and sleep quality
 
-How sleep quality varies with digital usage
+Correlation heatmap of all mental health indicators
+
+🔹 Category-Based Insights
+
+Most used social media platform
+
+Reason/purpose behind usage
+
+Gender-wise screen-time comparison
+
+🔹 Trend Observations
+
+Identifying unhealthy digital patterns
+
+How mental health changes with increased screen time
+
+Platform-wise influence on stress and productivity
+
+All charts are clear, aesthetically designed, and easy to interpret.
+
+📈 Key Insights from the Data
+
+Some major findings highlighted in the visualizations:
+
+People with higher screen time tend to report higher stress & anxiety.
+
+Excessive social media usage is often linked with poor sleep quality.
+
+Younger participants generally have greater daily screen time.
+
+Entertainment-based usage patterns show lower productivity levels.
+
+Certain social media platforms may have stronger influence on mood and stress.
+
+These observations reflect how digital behavior plays a major role in mental health.
+
+🛠 Tools & Technologies Used
+
+Python
+
+Pandas & NumPy for data handling
+
+Matplotlib & Seaborn for visualizations
+
+Google Colab for analysis
+
+🎯 Project Goals
+
+To visually understand how digital habits affect mental health
+
+To identify patterns that can help promote healthier online behavior
+
+To provide a beginner-friendly visualization project for portfolio or academics
